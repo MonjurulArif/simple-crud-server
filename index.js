@@ -11,12 +11,12 @@ app.use(express.json());
 // to receive data from body of client request
 
 //monjurulopu
-//e1sWnn8k8XifRfvw
+//
 
 // const uri = "mongodb://localhost:27017" 
 
 // const uri = "mongodb+srv://monjurulopu:<password>@cluster0.sniijtt.mongodb.net/?retryWrites=true&w=majority";
-const uri = "mongodb+srv://monjurulopu:e1sWnn8k8XifRfvw@cluster0.sniijtt.mongodb.net/?retryWrites=true&w=majority";
+const uri = "mongodb+srv://monjurulopu:@cluster0.sniijtt.mongodb.net/?retryWrites=true&w=majority";
 
 // Create a MongoClient with a MongoClientOptions object to set the Stable API version
 const client = new MongoClient(uri, {
