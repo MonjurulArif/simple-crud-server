@@ -10,13 +10,13 @@ app.use(express.json());
 //req.body will be undefined if we don't use express.json()
 // to receive data from body of client request
 
-//monjurulopu
+//
 //
 
 // const uri = "mongodb://localhost:27017" 
 
-// const uri = "mongodb+srv://monjurulopu:<password>@cluster0.sniijtt.mongodb.net/?retryWrites=true&w=majority";
-const uri = "mongodb+srv://monjurulopu:@cluster0.sniijtt.mongodb.net/?retryWrites=true&w=majority";
+// const uri = "mongodb+srv://<username>:<password>@cluster0.sniijtt.mongodb.net/?retryWrites=true&w=majority";
+const uri = "mongodb+srv://----:----@cluster0.sniijtt.mongodb.net/?retryWrites=true&w=majority";
 
 // Create a MongoClient with a MongoClientOptions object to set the Stable API version
 const client = new MongoClient(uri, {
